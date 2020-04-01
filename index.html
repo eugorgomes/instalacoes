@@ -88,7 +88,7 @@
 						<div class="card zoom" >
 							<a href="#" class="card-link" data-toggle="modal" data-target="#file_festival"  >
 							
-			      				<img class="card-img-top img-fluid" src="img/black.png" alt="Card image cap">
+			      				<img class="card-img-top img-fluid" src="img/noite_estrelada.png" alt="Card image cap">
 			     			 	<div class="card-footer">
 			       					<b>4 - File Festival</b>
 			      				</div>
@@ -217,7 +217,19 @@
 					</button>
 				</div>
 				<div class="modal-body">
-					<p>Conteúdo em construção</p>				
+					<p>Atividade proposta na disciplina de Instalações Multimídia.</p>
+
+					<p>A atividade nos propôs discutir uma das obras do <a href="https://file.org.br" target="_blank">File Festival</a> especulando como a mesma realiza integração com um computador.</p>
+
+					<p>A obra que escolhi se chama <a href="https://file.org.br/bh2018/petros-vrellis-2/" target="_blank">Starry Night</a>, do artista grego Petros Vrellis. A obra trata-se de uma instalação interativa baseada na obra de  Van Gogh "Starry Night", em portugês, "A noite estrelada".</p>
+
+					<p>Na instalação de Vrellis, a obra de Van Gogh ganha vida através de uma animação que segue o fluxo da pintura original, porém, além da animação padrão, o usuário consegue interagir com a obra através de um tablet, com os dedos ele pode criar outros fluxos de animação por um tempo determinado, depois desse tempo, a animação padrão volta a acontecer. Abixo temos uma imagem da obra.</p>
+
+					<img src="img/noite_instalacao.jpg">
+
+					<p>Como especulação da integração da obra com um computador, vou assumir que o tablet da obra esteja linkado à um computador com processing. No processo de construção, padrões foram criados para simular as pinceladas de Van Gogh na "A noite estrelada", um processo similar foi utlizado na obra da equipe de Design computacional do Departamento de Arquitetura, Urbanismo e Design em conjunto com a Camerata de Cordas, ambos da Universidade Federal do Ceará, aqui, os padrões que simulam a pintura de <a href="https://www.minimuseufirmeza.org/artista/stenio-burgos" target="_blank">Stênio Burgos</a> pulsam com a amplitude das ondas da música da camerata, essa apresentação pode ser vista <a href="https://www.minimuseufirmeza.org/artista/stenio-burgos" target="_blank">aqui</a>. Então, com esses padrôes em mãos, vetores foram criados no código do algorítmo para simular forças da física, esses vetores são melhor explicados no <a href="https://natureofcode.com/book/chapter-1-vectors/" target="_blank">primeiro capítulo do livro "the nature of code"</a>, de Daniel Shiffman. </p>	
+
+					<p>Com os vetores e os padrões prontos, o computador é conectado ao tablet para que este receba os dados de toque do usuário, feita essa conexão, o tablet recebe os dados do toque do usuário, manda tais dados ao algorítimo, este, por sua vez aplica os vetores no rastro do toque e exibe os padrões de pintura nas posições dos vetores. Tudo isso é enviado ao monitor superior e a obra está pronta. Vale lembrar que tudo isso é uma especulação, para saber como foi feita a obra devemos beber da fonte do autor da mesma.</p>		
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-danger" data-dismiss="modal">
